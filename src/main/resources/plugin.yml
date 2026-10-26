@@ -1,0 +1,12 @@
+name: VexMine
+version: 1.0.0
+main: com.vexbot.vexmine.VexMineAddon
+api-version: '1.21'
+commands:
+  vexbot:
+    description: Controls VexMine mining bots
+    usage: /vexbot vexmine mine <team|individual> <x1> <y1> <z1> <x2> <y2> <z2>
+    permission: vexbot.use
+permissions:
+  vexbot.use:
+    default: true
